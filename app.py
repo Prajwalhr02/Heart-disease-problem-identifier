@@ -10,7 +10,7 @@ st.title("Heart Disease Prediction App")
 # Input fields
 age = st.slider("Age", 20, 80, 45)
 sex = st.radio("Sex", ['Male', 'Female'])
-cp = st.selectbox("Chest Pain Type (cp)", [0, 1, 2, 3])
+cp = st.selectbox("Chest Pain Type (cp)", [0 none , 1 mild , 2 average, 3 severe])
 trestbps = st.slider("Resting Blood Pressure", 90, 200, 120)
 chol = st.slider("Serum Cholesterol (mg/dl)", 100, 400, 200)
 
